@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.login-form {
+	background: #FFFFFF;
+	max-width: 500px;
+	margin: 50px auto;
+    padding: 60px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.login-form h2{
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.login-form input {
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  radius: 0px;
+  min-height: 50px;
+}
+.login-form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.login-form .btn-default{
+	color: #FFFFFF;
+	background: #4CAF50;
+}
+.login-form .message {
+  margin: 20px 0 0;
+  color: red;
+  font-size: 14px;
+}
+
+
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+.navbar-default{
+	background-color: #1B5E20;
+	border-image-width: 0px;
+    border: none;
+    border-radius: 0px;
+}
+.media{
+	background-color: #1B5E20;
+	color: white;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.media-heading{
+	color: #81C784;
+}
+
+.new-post textarea{
+	border-radius: 0px;
+	margin: auto;
+}
+h2.new-post {
+	color: #81C784;
+	margin-left: 30px;
+}
+.new-post button{
+	background-color: #81C784;
+}
+.col-md-7{
+	margin: auto;
+	background-color: #1B5E20;
+}
+.btn-success{
+	  font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0px;
+}
+.row{
+	background-color: #1B5E20;
+	margin-bottom: 15px;
+}
+.button-container{
+  padding: 0px;
+}
+.media-body>a, h5{
+	color: #FF6D00;
+}
+.row.form-container{
+  margin-bottom:0px;
+}
+.media-object{
+    object-fit: cover;
+    height: 50vh;
+    width: 50vh;
+
+  }
+ .preview{
+   width: 70%;
+   margin-left:10px;
+ }
+.btn-primary{
+  font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0px;
+}
+ 
